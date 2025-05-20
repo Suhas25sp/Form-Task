@@ -1,0 +1,54 @@
+{
+  "Student": [
+    {
+      "id": 1,
+      "name": "Suhas",
+      "skill": "HTML",
+      "mobile": 9850654321,
+      "email": "suhas@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Ritesh",
+      "skill": "CSS",
+      "mobile": 9876543210,
+      "email": "ritesh@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Tejasvi",
+      "skill": "Bootstrap",
+      "mobile": 98506512455,
+      "email": "teju@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Athrav",
+      "skill": "JavaScript",
+      "mobile": 9850650011,
+      "email": "athrav@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Sairaj",
+      "skill": "React js",
+      "mobile": 9850654321,
+      "email": "sai@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "Sanket",
+      "skill": "Node js",
+      "mobile": 9850654321,
+      "email": "sanket@gmail.com"
+    },
+    {
+      "name": "Suhas Patil",
+      "skill": "Admin",
+      "post": "",
+      "mobile": "09850153422",
+      "email": "suhaspatil1225@gmail.com",
+      "id": 7
+    }
+  ]
+}
