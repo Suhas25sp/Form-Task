@@ -49,6 +49,38 @@
       "mobile": "09850153422",
       "email": "suhaspatil1225@gmail.com",
       "id": 7
+    },
+    {
+      "name": "Gurunath Patil ",
+      "skill": "Developer",
+      "post": "",
+      "mobile": "09850153422",
+      "email": "guru@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "Yakub Jadhav",
+      "skill": "PHP",
+      "post": "Developer",
+      "mobile": "09850153422",
+      "email": "jadhav@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "",
+      "skill": "",
+      "post": "",
+      "mobile": "",
+      "email": "",
+      "id": 10
+    },
+    {
+      "name": "Suhas Patil",
+      "skill": "Full Stack developer",
+      "post": "Admin",
+      "mobile": "09850153422",
+      "email": "suhaspatil1225@gmail.com",
+      "id": 11
     }
   ]
 }

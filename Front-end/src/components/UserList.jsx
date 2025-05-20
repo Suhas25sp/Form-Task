@@ -58,6 +58,10 @@ const UserForm = () => {
                     {val.skill}
                   </p>
                   <p className="card-text">
+                    <span className="fw-bold text-secondary">Post :</span>{" "}
+                    {val.post}
+                  </p>
+                  <p className="card-text">
                     <span className="fw-bold text-secondary">Email : </span>{" "}
                     {val.email}
                   </p>

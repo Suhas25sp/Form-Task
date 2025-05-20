@@ -16,15 +16,18 @@ const UserForm = () => {
 
   const saveForm = async (e) => {
     e.preventDefault();
-    alert("User Registration Successfully..😊");
+    alert("User Registration Successfully..");
     console.log(data);
 
     await axios.post("http://localhost:3000/Student", data);
   };
   return (
     <>
+      <h2 className="text-center bg-secondary text-white fw-bold p-4 mb-4">
+        User Form
+      </h2>
       <form action="" onSubmit={(e) => saveForm(e)}>
-        <div className="container border p-4 shadow-lg">
+        <div className="container border p-4 shadow-lg ">
           <div className="row fw-bold">
             <div className="col-md-12">
               <label htmlFor="">Enter Your Name</label>
@@ -54,7 +57,7 @@ const UserForm = () => {
             <div className="col-md-12 my-3">
               <label htmlFor="">Choose Your Post</label>
               <select
-                name="skill"
+                name="post"
                 id=""
                 value={data.post}
                 onChange={(e) => dataHandler(e)}
