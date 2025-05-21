@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { NavLink } from "react-router-dom";
 
 const UserForm = () => {
   const [data, setData] = useState([]);
@@ -31,7 +32,7 @@ const UserForm = () => {
       const result = data.filter((val) => val.id !== id);
       setData(result);
 
-      await axios.delete(`http://localhost:3000/Student/emp/${id}`);
+      await axios.delete(`http://localhost:3000/Student/${id}`);
     } catch (err) {
       console.log(err);
       return;
@@ -80,9 +81,12 @@ const UserForm = () => {
                     >
                       <i className="fas fa-trash-alt"></i> Delete
                     </button>
-                    <button className="btn btn-primary px-4 fw-bold">
-                      <i className="fas fa-edit"></i> Edit
-                    </button>
+                    <NavLink to={`/EditUser/${val.id}`}>
+                      <button className="btn btn-primary px-4 fw-bold">
+                        <i className="fas fa-edit "></i>
+                        Edit
+                      </button>
+                    </NavLink>
                   </div>
                 </div>
               </div>
